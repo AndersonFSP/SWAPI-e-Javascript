@@ -1,0 +1,58 @@
+
+header > h1{
+    text-align: center;
+    background: rgba(26, 24, 24, 0.863);
+    color: white;
+    border-bottom: solid rgb(5, 1, 1); 
+}
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background-image: url('image/star.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    background-color:rgba(26, 24, 24, 0.863); 
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    margin-top: 70px;
+    border: solid rgb(5, 1, 1);
+    border-radius: 10px;
+}
+
+footer{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#info{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#icon{
+    border:solid rgb(5, 1, 1);
+    width: 130px;
+    height: 160px;
+}
+#foto{
+    padding: 15px;
+    margin-right: 50px;
+    float: right;
+}
+.space{
+    margin-left: 35px;
+    padding: 15px;
+}
