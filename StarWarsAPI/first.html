@@ -13,6 +13,12 @@
     </header>
     <section>
         <div id="info">
+            <label for="opt">Informação:</label>
+            <select name="opt" id="selopt">
+                <option value="people">Personagens</option>
+                <option value="planets">Planetas</option>
+            </select>
+            <option value="aaa"></option>
             <label for="num">ID da Informação: </label>
             <input type="number" name='num' id="num" placeholder="Numero correspondente">
             <input type='button' value='Buscar' onclick="buscar()">
@@ -39,7 +45,7 @@
         </div>
     </section>
     <footer> 
-        <p><a href="https://github.com/AndersonFSP" target="_blank">AndersonFSP(GitHub)</a> &emsp; <a href="https://swapi.co/">SWAPI.com</a></p>
+        <p><a href="https://github.com/AndersonFSP" target="_blank">AndersonFSP(GitHub)</a> &emsp; <a href="https://swapi.co/" target="_blank">SWAPI.com</a></p>
     </footer>
 </body>
 <script src="script.js"></script>
